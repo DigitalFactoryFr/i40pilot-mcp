@@ -1,0 +1,25 @@
+name: Connection problem
+description: A client does not connect, or sign-in fails
+labels: [connection]
+body:
+  - type: dropdown
+    id: client
+    attributes:
+      label: Client
+      options: [Claude.ai, Claude Desktop, Claude Code, ChatGPT, Cursor, VS Code, Other]
+    validations:
+      required: true
+  - type: dropdown
+    id: step
+    attributes:
+      label: Where does it stop?
+      options: [Adding the URL, Sign-in page, Consent screen (project / access), After consent — no tools listed, A tool call fails]
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What you see
+      description: The exact error message, and a screenshot if you can. Never paste a token.
+    validations:
+      required: true

@@ -1,0 +1,19 @@
+name: Missing tool or wrong result
+description: Something you asked could not be done, or the result was wrong
+labels: [tools]
+body:
+  - type: textarea
+    id: ask
+    attributes:
+      label: What you asked your assistant
+    validations:
+      required: true
+  - type: textarea
+    id: got
+    attributes:
+      label: What happened
+      description: Tool names called, the answer, a screenshot.
+  - type: textarea
+    id: want
+    attributes:
+      label: What you expected
