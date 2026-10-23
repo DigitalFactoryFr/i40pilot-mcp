@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "i40pilot": {
+      "type": "http",
+      "url": "https://api.i40pilot.app/mcp"
+    }
+  }
+}
