@@ -45,6 +45,15 @@ Or hand the whole request to the i40Pilot agent with `i40pilot_chat`, in plain l
 
 You need an i40Pilot account — [create one free](https://i40pilot.app?utm_source=github&utm_medium=mcp_readme).
 
+## Free to try
+
+**All 56 tools work on the free plan** — no credit card:
+
+- **500 MCP calls per month**
+- **100 AI credits per month** — 20 tools (reading, describing, scheduling) cost nothing; most tools that create or change something cost 1 credit; the automatic dashboard builder costs 10 and infographics 18.
+
+Need more? Paid plans raise both limits — see [i40pilot.app](https://i40pilot.app?utm_source=github&utm_medium=mcp_readme).
+
 ## Tools
 
 56 tools across 9 areas, plus a conversational entry point. Full list: [docs/tools.md](docs/tools.md).
