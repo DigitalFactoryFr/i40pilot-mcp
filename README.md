@@ -18,13 +18,19 @@ project and **read-only or read-write** access on the consent screen, and you ca
 
 ![A real call to the i40Pilot MCP server: a 99-part gear motor designed from one prompt](assets/demo.gif)
 
-## What you can ask
+## One connection, every i40Pilot app
 
-- *"Connect my production database and build an OEE dashboard per line, with availability, performance and quality."*
-- *"Read the downtime sheet I uploaded and add a Pareto of stop causes."*
-- *"Plan the maintenance shutdown: these 12 tasks, these dependencies — give me the critical path."*
-- *"Model a 40 mm aluminium mounting bracket with two M6 holes and show me a render."*
-- *"Export this dashboard to Power BI."*
+| App | Ask your AI client… |
+|---|---|
+| 📊 **Dashboards & OEE** | *"Connect my production database and build an OEE cockpit per line: availability, performance, quality, a Pareto of stop causes."* |
+| 📈 **Spreadsheets** | *"Read the downtime workbook I uploaded and add a column with the stop duration in minutes."* |
+| 🗓️ **Gantt & scheduling** | *"Plan the gearbox overhaul: these 8 tasks, these dependencies — what is the critical path and where is the slack?"* |
+| 🧊 **3D design (text-to-CAD)** | *"Model a gear motor on a steel base, every bolt a real joint, and show me a render."* |
+| 📅 **Calendar** | *"Book the overhaul on the maintenance calendar and invite the two technicians."* |
+| 📝 **Forms** | *"Add a 'root cause' dropdown to the stop-declaration form."* |
+| 🔄 **Power BI** | *"Export this dashboard to Power BI."* |
+
+Or hand the whole request to the i40Pilot agent with `i40pilot_chat`, in plain language.
 
 ## Connect your client
 
@@ -51,7 +57,7 @@ You need an i40Pilot account — [create one free](https://i40pilot.app?utm_sour
 | **Spreadsheets** | `spreadsheet_create_workbook_from_file`, `spreadsheet_read_context`, `spreadsheet_update_rows` |
 | **Scheduling** | `schedule_cpm`, `schedule_dates`, `gantt_append_task`, `gantt_update_data` |
 | **3D CAD (text-to-CAD)** | `drawboard_run_program`, `drawboard_view_render`, `drawboard_inspect_part` |
-| **Calendar, forms, drive, infographics** | `calendar_create_events`, `forms_append_field`, `drive_create_upload_url`, `infographic_generate` |
+| **Calendar, forms, files, infographics** | `calendar_create_events`, `forms_append_field`, `drive_create_upload_url`, `infographic_generate` |
 
 The tool list is served live by the server (`tools/list`): new capabilities appear without any update on your side.
 
