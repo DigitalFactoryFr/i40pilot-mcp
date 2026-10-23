@@ -16,7 +16,7 @@ project and **read-only or read-write** access on the consent screen, and you ca
 > 🇫🇷 *Serveur MCP hébergé d'i40Pilot : collez l'URL ci-dessus dans votre client IA, connectez-vous, choisissez le projet
 > et le niveau d'accès. Votre assistant peut alors lire et construire tableaux de bord, TRS/OEE, plannings et pièces 3D.*
 
-![A real call to the i40Pilot MCP server: a 99-part gear motor designed from one prompt](assets/demo.gif)
+![From one AI client: a dashboard, a critical-path schedule and a 99-part 3D assembly through the i40Pilot MCP server](assets/demo.gif)
 
 ## One connection, every i40Pilot app
 
