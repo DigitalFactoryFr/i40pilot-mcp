@@ -1,8 +1,8 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "app.i40pilot/i40pilot",
+  "name": "io.github.DigitalFactoryFr/i40pilot",
   "title": "i40Pilot",
-  "description": "Industrial BI for manufacturing: dashboards, OEE, spreadsheets, Gantt/CPM scheduling and text-to-3D CAD from your AI client.",
+  "description": "Manufacturing BI from your AI client: dashboards, OEE, spreadsheets, scheduling, text-to-CAD.",
   "version": "1.0.0",
   "websiteUrl": "https://i40pilot.app",
   "repository": {
