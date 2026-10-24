@@ -1,6 +1,9 @@
 # Tools
 
-Snapshot of `tools/list` on 2026-10-24 (55 tools). The live list is authoritative. ✏️ = write tool, hidden on read-only connections.
+Snapshot of `tools/list` on 2026-10-24 (58 tools). The live list is authoritative. ✏️ = write tool, hidden on read-only connections.
+
+## Find (1)
+- `brain_search` — search the resources of every app (drawings, Gantt plannings, dashboards, spreadsheets, documents, forms, calendar, Drive…) by words, or list the most recent ones with an empty query. Results carry the type and id `i40pilot_show` accepts.
 
 ## Show & follow (2)
 - `i40pilot_show` — display a dashboard, 3D drawing, spreadsheet, Gantt… in the conversation (MCP Apps), read-only, with a button to open it in i40Pilot.
@@ -24,8 +27,8 @@ Snapshot of `tools/list` on 2026-10-24 (55 tools). The live list is authoritativ
 ✏️ `spreadsheet_create_workbook_from_file`, ✏️ `spreadsheet_append_rows`, ✏️ `spreadsheet_update_rows`,
 ✏️ `spreadsheet_delete_rows_by_criterion`
 
-## Scheduling (5)
-`schedule_cpm` (critical path), `schedule_dates`, ✏️ `gantt_append_task`, ✏️ `gantt_update_data`, ✏️ `gantt_delete_task`
+## Scheduling (7)
+`schedule_cpm` (critical path), `schedule_dates`, `gantt_get_context` (read a planning, or list them), ✏️ `gantt_create_plan`, ✏️ `gantt_append_task`, ✏️ `gantt_update_data`, ✏️ `gantt_delete_task`
 
 ## 3D CAD (4)
 `drawboard_get_dsl_docs`, `drawboard_inspect_part`, `drawboard_view_render`, ✏️ `drawboard_run_program`
