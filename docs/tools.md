@@ -1,10 +1,10 @@
 # Tools
 
-Snapshot of `tools/list` on 2026-10-23. The live list is authoritative. ✏️ = write tool, hidden on read-only connections.
+Snapshot of `tools/list` on 2026-10-24 (55 tools). The live list is authoritative. ✏️ = write tool, hidden on read-only connections.
 
-## Agent
-- `i40pilot_chat` — send a request in plain language to the i40Pilot agent; pass `conversationId` to keep context.
-- `i40pilot_job_status` — poll an asynchronous job until it succeeds or fails.
+## Show & follow (2)
+- `i40pilot_show` — display a dashboard, 3D drawing, spreadsheet, Gantt… in the conversation (MCP Apps), read-only, with a button to open it in i40Pilot.
+- `i40pilot_job_status` — status and result of an asynchronous job.
 
 ## Dashboards (16)
 `bi_get_dashboard`, `bi_describe_dataset`, `bi_describe_widget_kinds`, `bi_export_powerbi`,
@@ -34,5 +34,5 @@ Snapshot of `tools/list` on 2026-10-23. The live list is authoritative. ✏️ =
 `calendar_list_events`, ✏️ `calendar_create_event`, ✏️ `calendar_create_events`, ✏️ `calendar_update_event`,
 ✏️ `calendar_delete_event`, ✏️ `calendar_add_attendees`
 
-## Forms, drive, infographics (4)
-✏️ `forms_append_field`, ✏️ `forms_update_fields`, ✏️ `drive_create_upload_url`, ✏️ `infographic_generate`
+## Forms & drive (3)
+✏️ `forms_append_field`, ✏️ `forms_update_fields`, ✏️ `drive_create_upload_url`

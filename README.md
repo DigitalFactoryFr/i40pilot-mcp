@@ -45,7 +45,7 @@ project and **read-only or read-write** access on the consent screen, and you ca
 | 📝 **Forms** | *"Add a 'root cause' dropdown to the stop-declaration form."* |
 | 🔄 **Power BI** | *"Export this dashboard to Power BI."* |
 
-Or hand the whole request to the i40Pilot agent with `i40pilot_chat`, in plain language.
+Ask for a result and Claude can show it right in the conversation with `i40pilot_show` — a dashboard, a 3D drawing, a Gantt — with a button to open it in i40Pilot.
 
 ## Connect your client
 
@@ -62,26 +62,26 @@ You need an i40Pilot account — [create one free](https://i40pilot.app?utm_sour
 
 ## Free to try
 
-**All 56 tools work on the free plan** — no credit card:
+**All 55 tools work on the free plan** — no credit card:
 
 - **500 MCP calls per month**
-- **100 AI credits per month** — 20 tools (reading, describing, scheduling) cost nothing; most tools that create or change something cost 1 credit; the automatic dashboard builder costs 10 and infographics 18.
+- **100 AI credits per month** — 20 tools (reading, describing, scheduling) cost nothing; most tools that create or change something cost 1 credit; the automatic dashboard builder costs 10.
 
 Need more? Paid plans raise both limits — see [i40pilot.app](https://i40pilot.app?utm_source=github&utm_medium=mcp_readme).
 
 ## Tools
 
-56 tools across 9 areas, plus a conversational entry point. Full list: [docs/tools.md](docs/tools.md).
+55 tools across 8 areas. Full list: [docs/tools.md](docs/tools.md).
 
 | Area | Examples |
 |---|---|
-| **Agent** | `i40pilot_chat` — hand a whole request to the i40Pilot agent, in plain language |
+| **Show & follow** | `i40pilot_show` — display a resource in the conversation; `i40pilot_job_status` — status of a long job |
 | **Dashboards (BI)** | `bi_create_dashboard`, `bi_add_widget`, `bi_run_dashboard_agent`, `bi_export_powerbi` |
 | **Data sources** | `bi_create_data_source_from_template`, `bi_introspect_schema`, `bi_create_dataset`, `bi_add_computed_column` |
 | **Spreadsheets** | `spreadsheet_create_workbook_from_file`, `spreadsheet_read_context`, `spreadsheet_update_rows` |
 | **Scheduling** | `schedule_cpm`, `schedule_dates`, `gantt_append_task`, `gantt_update_data` |
 | **3D CAD (text-to-CAD)** | `drawboard_run_program`, `drawboard_view_render`, `drawboard_inspect_part` |
-| **Calendar, forms, files, infographics** | `calendar_create_events`, `forms_append_field`, `drive_create_upload_url`, `infographic_generate` |
+| **Calendar, forms, files** | `calendar_create_events`, `forms_append_field`, `drive_create_upload_url` |
 
 The tool list is served live by the server (`tools/list`): new capabilities appear without any update on your side.
 
